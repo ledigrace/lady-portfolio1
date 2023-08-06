@@ -150,6 +150,11 @@ Filename      : main.css
 - preloader
 * ----------------------------------------------------------------------------------------
 */
+    .headerwrap__logo{
+        font-family: 'Comic Neue', cursive;
+        font-size: 30px;
+        font-weight: 700;
+    }
     
     .preloader {
         position: fixed;
@@ -345,6 +350,8 @@ Filename      : main.css
         font-size: 80px;
         font-weight: 600;
         text-shadow: 5px 5px #ddaa01;
+        font-family: 'Comic Neue', cursive;
+ 
     }
     
     .infohero__title span {
@@ -363,7 +370,7 @@ Filename      : main.css
         width: 350px;
         object-fit: cover;
         box-shadow: 20px 20px 1px 1px #ddaa01;
-        border: 7px solid;
+        border: 5px solid;
     }
     
     #typed-text {
@@ -391,6 +398,7 @@ Filename      : main.css
     .abouthero h3 {
         font-size: 50px;
         font-weight: 600;
+        font-family: 'Comic Neue', cursive;
     }
     
     .infoabout__list {
