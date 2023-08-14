@@ -62,7 +62,18 @@ Filename      : responsive.css
     }
 }
 
-@media (max-width: 899) {}
+@media (max-width: 899px) {
+    .skills-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Change the number of columns as needed */
+        grid-gap: 20px; /* Adjust the gap between items */
+        justify-items: center;
+    }
+
+    .wrapservice {
+        width: 100%; /* Make sure each icon takes up the full width of the grid cell */
+    }
+}
 
 @media (max-width: 799px) {
     .porfoliowarp__item {
@@ -76,7 +87,8 @@ Filename      : responsive.css
 
 @media (max-width: 480px) {}
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+}
 
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {}
