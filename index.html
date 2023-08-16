@@ -31,6 +31,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -56,7 +58,6 @@
                         <ul class="navpage__wrap">
                             <li class="navpage__list"><a href="#sectionhero" class="activelink">Intro.</a></li>
                             <li class="navpage__list"><a href="#aboutsection">About Me.</a></li>
-                            <li class="navpage__list"><a href="#servicesection">Service.</a></li>
                             <li class="navpage__list"><a href="#portfoliosection">Portfolio.</a></li>
                             <li class="navpage__list"><a href="#contactsection">Contact.</a></li>
                         </ul>
@@ -93,7 +94,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 pr-0 mr-0 pl-lg-0 pr-lg-5 mr-lg-0 mt-3 mt-lg-0 align-items-center justify-content-center align-items-lg-left justify-content-lg-left text-center text-lg-left d-flex order-1 order-lg-0 ">
-                        <div class="infohero ">
+                        <div class="infohero" data-aos="zoom-in" data-aos-delay="100">
                             <p class="infohero__p">Hello, i'm</p>
                             <h1 class="infohero__title">Lady Grace
                                 <span>Cannu</span>
@@ -102,15 +103,15 @@
                             <span class="cursor blink">&nbsp;</span>
 
                             <div class="row  text-center text-lg-left">
-                                <a href=".asset/resume/Ladygrace2023resumeFullstack.pdf" class="btn linkbtn aboutlink mt-4" download>
-                                    Download Cv
+                                <a href="https://drive.google.com/file/d/115WpG6qMyKO2xBfSpCvbwA9jPn6Gr0g4/view?usp=sharing" target="_blank" class="btn linkbtn aboutlink mt-4" download data-aos="zoom-in" data-aos-delay="500">
+                                    My Resume
                                 </a>
                             </div>
                         </div>
                         
                     </div>
                     <div class="col-lg-6 text-center order-0 order-lg-1 mb-5 mb-lg-0">
-                        <div class="heroimg">
+                        <div class="heroimg" data-aos="zoom-in" data-aos-delay="900">
                             <img src="./asset/hero/1.jpg" alt="poto" class="img-fluid heroimg__poto" />
                         </div>
                     </div>
@@ -129,7 +130,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 text-center text-lg-left">
-                        <div class="infoabout">
+                        <div class="infoabout" data-aos="fade-up" data-aos-delay="100">
                             <p class="infoabout__title">
                                 <br>
                                 <br>
@@ -145,9 +146,9 @@
                     <div class="col-lg-6 pl-lg-5 text-center text-lg-left">
                         <br>
                         <br>
-                        <h3 class="text-center">Skills</h3>
+                        <h3 class="text-center skills-title">Skills</h3>
 
-                        <div class="skills-box mb-5">
+                        <div class="skills-box mb-5" data-aos="fade-up" data-aos-delay="900">
                             <div class="wrapservice keen-slider__slide text-center text-lg-left">
                                 <img src="./asset/hero/i-html.png" class="skills-img" alt="">
                                 <h3 class="mt-3 wrapservice__title"> HTML </h3>
@@ -272,11 +273,11 @@
                             </a> -->
                         </div>
                         <!-- XXXXX -->
-                        <div class="col-lg-6 text-center portfolio-item">
+                        <div class="col-lg-6 text-center portfolio-item" data-aos="fade-up" data-aos-delay="100">
                             <img src="./asset/portfolio/project-img1.png" class="portfolio-img" alt="">
                         </div>
-                        <div class="col-lg-6 text-left portfolio-item">
-                            <h3>Lady Dahny E-commerce Website</h3>
+                        <div class="col-lg-6 text-left portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="mt-5 mb-3">Lady Dahny E-commerce Website</h3>
                             <p>This is our final capstone project that we created together with my groupmates at Kodego's FullStack Web Development Bootcamp. Our project is an e-commerce website that specializes in selling fantasy game merchandise. It is built using HTML, CSS, JavaScript, and Laravel.</p>
                             <div class="portfolio-links">
                                 <a href="https://ladydahnycapstone.store/" target="_blank">Visit Website <i class="fa fa-external-link"></i></a>
@@ -284,23 +285,23 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 text-right portfolio-item">
-                            <h3>The Bon Appétit Blog Website</h3>
+                        <div class="col-lg-6 text-right portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="mt-5 mb-3">The Bon Appétit Blog Website</h3>
                             <p>This is my mini project 1 that I created during Kodego’s FullStack Web Development Bootcamp. It is a blog website focused on French cuisine, built on the frontend using HTML, CSS, and an API Spreadsheet.</p>
                             <div class="portfolio-links">
                                 <a href="https://ledigrace.github.io/miniproject1.github.io/" target="_blank">Visit Website <i class="fa fa-external-link"></i></a>
                                 <a href="https://github.com/ledigrace/miniproject1.github.io" target="_blank">Source Code <i class="fab fa-github"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 text-center portfolio-item">
+                        <div class="col-lg-6 text-center portfolio-item" data-aos="fade-up" data-aos-delay="100">
                             <img src="./asset/portfolio/project-img2.png" class="portfolio-img" alt="">
                         </div>
 
-                        <div class="col-lg-6 text-center portfolio-item">
+                        <div class="col-lg-6 text-center portfolio-item" data-aos="fade-up" data-aos-delay="100">
                             <img src="./asset/portfolio/project-img5.png" class="portfolio-img" alt="">
                         </div>
-                        <div class="col-lg-6 text-left portfolio-item">
-                            <h3>Bioscreator Landing Page</h3>
+                        <div class="col-lg-6 text-left portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="mt-5 mb-3">Bioscreator Landing Page</h3>
                             <p>This is a Biocreator landing page that I created during my internship at Vera Equinox Technologies Inc. It is built using HTML, CSS, JavaScript, Ruby, and Jekyll.</p>
                             <div class="portfolio-links">
                                 <a href="https://ledigrace.github.io/portfolio---Bioscreator/index.html" target="_blank">Visit Website <i class="fa fa-external-link"></i></a>
@@ -308,51 +309,118 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 text-right portfolio-item">
-                            <h3>Vera Equinox Landing Page</h3>
+                        <div class="col-lg-6 text-right portfolio-item" data-aos="fade-up" data-aos-delay="100">
+                            <h3 class="mt-5 mb-3">Vera Equinox Landing Page</h3>
                             <p>This is a Vera Equinox landing page that I created during my internship at Vera Equinox Technologies Inc. It is built using HTML, CSS, JavaScript, Ruby, and Jekyll.</p>
                             <div class="portfolio-links">
                                 <a href="#" target="_blank">Visit Website <i class="fa fa-external-link"></i></a>
                                 <a href="https://github.com/ledigrace/portfolio-veti.github.io" target="_blank">Source Code <i class="fab fa-github"></i></a>
                             </div>
                         </div>
-                        <div class="col-lg-6 text-center portfolio-item">
+                        <div class="col-lg-6 text-center portfolio-item" data-aos="fade-up" data-aos-delay="100">
                             <img src="./asset/portfolio/project-img2.png" class="portfolio-img" alt="">
                         </div>
                     </div>
 
-                    <h3 class="text-center otherprojects">Other Projects</h3>
-                    <div class="row">
+                    <h3 class="text-center otherprojects otherprojects-title">Other Projects</h3>
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
                         <div class="col-lg-4">
-                            <div class="otherprojects">
-                                <a href="https://dahnjohn.github.io/miniGames.github.io/" target="_blank"><img src="./asset/portfolio/project-img4.png" class="otherprojects-img" alt=""></a>
+                            <div class="otherprojects-box">
+                                <div class="otherprojects">  
+                                    <div class="otherprojects1">
+                                        <a class="project-link" href="https://dahnjohn.github.io/miniGames.github.io/" target="_blank"><img src="./asset/portfolio/project-img4.png" class="otherprojects-img" alt=""></a>
+                                        <div class="p-links">
+                                            <h4 class="text-center">Mini Games</h4>
+                                            <div class="p-icons text-center">
+                                                <a href="https://dahnjohn.github.io/miniGames.github.io/" target="_blank"><i class="fa fa-external-link text-center"></i></a>
+                                                <a href="https://github.com/dahnjohn/miniGames.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="otherprojects">
-                                <a href="https://ledigrace.github.io/rockpaperscissors.github.io/" target="_blank"><img src="./asset/portfolio/project-img3.png" class="otherprojects-img" alt=""></a>
+                            <div class="otherprojects-box">
+                                <div class="otherprojects">  
+                                    <div class="otherprojects1">
+                                        <a class="project-link" href="https://ledigrace.github.io/rockpaperscissors.github.io/" target="_blank"><img src="./asset/portfolio/project-img3.png" class="otherprojects-img" alt=""></a>
+                                        <div class="p-links">
+                                            <h4 class="text-center">Rock, Paper, Scissors</h4>
+                                            <div class="p-icons text-center">
+                                                <a href="https://ledigrace.github.io/rockpaperscissors.github.io/" target="_blank"><i class="fa fa-external-link text-center"></i></a>
+                                                <a href="https://github.com/ledigrace/rockpaperscissors.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="otherprojects">
-                                <a href="https://ledigrace.github.io/agecalculatorapp/" target="_blank"><img src="./asset/portfolio/project-img6.png" class="otherprojects-img" alt=""></a>
+                            <div class="otherprojects-box">
+                                <div class="otherprojects">  
+                                    <div class="otherprojects1">
+                                        <a class="project-link" href="https://ledigrace.github.io/agecalculatorapp/" target="_blank"><img src="./asset/portfolio/project-img6.png" class="otherprojects-img" alt=""></a>
+                                        <div class="p-links">
+                                            <h4 class="text-center">Age Calculator</h4>
+                                            <div class="p-icons text-center">
+                                                <a href="https://ledigrace.github.io/agecalculatorapp/" target="_blank"><i class="fa fa-external-link text-center"></i></a>
+                                                <a href="https://github.com/ledigrace/agecalculatorapp" target="_blank"><i class="fab fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-lg-4">
+                            <div class="otherprojects-box">
+                                <div class="otherprojects">  
+                                    <div class="otherprojects1">
+                                        <a class="project-link" href="https://dahnjohn.github.io/miniGames.github.io/" target="_blank"><img src="./asset/portfolio/project-img4.png" class="otherprojects-img" alt=""></a>
+                                        <div class="p-links">
+                                            <h4 class="text-center">Mini Games</h4>
+                                            <div class="p-icons text-center">
+                                                <a href="https://dahnjohn.github.io/miniGames.github.io/" target="_blank"><i class="fa fa-external-link text-center"></i></a>
+                                                <a href="https://github.com/dahnjohn/miniGames.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="otherprojects">
-                                <a href="#" target="_blank"><img src="./asset/portfolio/project-img3.png" class="otherprojects-img" alt=""></a>
+                            <div class="otherprojects-box">
+                                <div class="otherprojects">  
+                                    <div class="otherprojects1">
+                                        <a class="project-link" href="https://ledigrace.github.io/rockpaperscissors.github.io/" target="_blank"><img src="./asset/portfolio/project-img3.png" class="otherprojects-img" alt=""></a>
+                                        <div class="p-links">
+                                            <h4 class="text-center">Rock, Paper, Scissors</h4>
+                                            <div class="p-icons text-center">
+                                                <a href="https://ledigrace.github.io/rockpaperscissors.github.io/" target="_blank"><i class="fa fa-external-link text-center"></i></a>
+                                                <a href="https://github.com/ledigrace/rockpaperscissors.github.io" target="_blank"><i class="fab fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
-                            <div class="otherprojects">
-                                <a href="#" target="_blank"><img src="./asset/portfolio/project-img4.png" class="otherprojects-img" alt=""></a>
+                            <div class="otherprojects-box">
+                                <div class="otherprojects">  
+                                    <div class="otherprojects1">
+                                        <a class="project-link" href="https://ledigrace.github.io/agecalculatorapp/" target="_blank"><img src="./asset/portfolio/project-img6.png" class="otherprojects-img" alt=""></a>
+                                        <div class="p-links">
+                                            <h4 class="text-center">Age Calculator</h4>
+                                            <div class="p-icons text-center">
+                                                <a href="https://ledigrace.github.io/agecalculatorapp/" target="_blank"><i class="fa fa-external-link text-center"></i></a>
+                                                <a href="https://github.com/ledigrace/agecalculatorapp" target="_blank"><i class="fab fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="otherprojects">
-                                <a href="#" target="_blank"><img src="./asset/portfolio/project-img4.png" class="otherprojects-img" alt=""></a>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
             </div>
         </div>
@@ -365,7 +433,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 pr-lg-5">
-                        <div class="contactdetail">
+                        <div class="contactdetail" data-aos="fade-up" data-aos-delay="100">
                             <h3 class="contactdetail__title mb-4">
                                 Let's get intouch
                             </h3>
@@ -407,7 +475,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="contactform">
+                        <div class="contactform"  data-aos="fade-up" data-aos-delay="500">
                             <!-- form contact -->
                             <form action="#" id="formcontact" class="contactform">
                                 <!-- input contact wrap -->
@@ -442,7 +510,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center footwrap">
-                    <p><b>FREEMAN</b> <span class="years"> </span> BY RAMA HARDIAN</p>
+                    <p><b>Lady Grace</b> <span class="years"> </span> ©2023</p>
                 </div>
             </div>
         </div>
@@ -456,6 +524,12 @@
     <script src="./javascript/vendor/shufle.js"></script>
     <!-- script -->
     <script src="./javascript/main.js"></script>
+    <script src="./javascript/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>
