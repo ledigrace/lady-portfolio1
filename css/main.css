@@ -547,6 +547,12 @@ Filename      : main.css
     .p-icons a{
         color: #000;
     }
+    .portfolio-bon{
+        display: flex;
+    }
+    .portfolio-bios{
+        display: flex;
+    }
     .portfolio-item{
         margin: 100px 0;
     }

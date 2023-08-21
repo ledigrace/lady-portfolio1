@@ -91,12 +91,22 @@ Filename      : responsive.css
     .portfolio-item {
         margin: 20px 0;
     }
-
+    .portfolio-item h3{
+        text-align: center;
+    }
+    .portfolio-item p{
+        text-align: center;
+    }
     .p-item-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    
+    .portfolio-bon {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
@@ -104,14 +114,25 @@ Filename      : responsive.css
     .portfolio-item {
         margin: 20px 0;
     }
-
+    .portfolio-item h3{
+        text-align: center;
+    }
+    .portfolio-item p{
+        text-align: center;
+    }
     .p-item-wrapper {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+    
+    .portfolio-bon {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
+
 
 
 @media all and (-ms-high-contrast: none),
